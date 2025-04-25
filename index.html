@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conectamos innovación con el mercado paso a paso a través de nuestra metodología de navegación tecnológica. Expertos en transferencia tecnológica y comercialización.">
+    <meta name="keywords" content="innovación, tecnología, transferencia tecnológica, comercialización, mercado">
+    <meta name="author" content="Navegación Tecnológica">
+    <meta name="robots" content="index, follow">
+    
+    <title>Navegación Tecnológica - Conectamos innovación con el mercado</title>
+    
+    <!-- Preconectar a Font Awesome CDN para mejorar el rendimiento -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Font Awesome para iconos (reemplaza Feather Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./PompomPurin/css/styles.css">
+    
+    <!-- Open Graph para compartir en redes sociales -->
+    <meta property="og:title" content="Navegación Tecnológica - Conectamos innovación con el mercado">
+    <meta property="og:description" content="Expertos en transferencia tecnológica y comercialización de innovaciones.">
+    <meta property="og:image" content="https://www.navegaciontecnologica.com/img/og-image.jpg">
+    <meta property="og:url" content="https://www.navegaciontecnologica.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Navegación Tecnológica">
+    <meta name="twitter:description" content="Conectamos innovación con el mercado paso a paso">
+    <meta name="twitter:image" content="https://www.navegaciontecnologica.com/img/twitter-image.jpg">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <!-- Header -->
+    <header class="fixed-header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" aria-label="Navegación Tecnológica">TECKA</div>
+
+                <nav class="desktop-nav" role="navigation" aria-label="Navegación principal">
+                    <a href="#nuestra-ruta" class="nav-link">Nuestra Ruta</a>
+                    <a href="#brujula" class="nav-link">Brújula Tecnológica</a>
+                    <a href="#cartografia" class="nav-link">Cartografía Comercial</a>
+                    <a href="#negociacion" class="nav-link">Negociación a Bordo</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <button class="mobile-menu-button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-container">
+            <button class="close-menu-button" aria-label="Cerrar menú">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+            <nav class="mobile-nav" role="navigation" aria-label="Menú móvil">
+                <a href="#nuestra-ruta" class="mobile-nav-link">Nuestra Ruta</a>
+                <a href="#brujula" class="mobile-nav-link">Brújula Tecnológica</a>
+                <a href="#cartografia" class="mobile-nav-link">Cartografía Comercial</a>
+                <a href="#negociacion" class="mobile-nav-link">Negociación a Bordo</a>
+                <a href="#anclaje" class="mobile-nav-link">Anclaje Estratégico</a>
+                <a href="#bitacora" class="mobile-nav-link">Bitácora de Navegación</a>
+                <a href="#contacto" class="mobile-nav-link">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-background"></div>
+            <canvas id="waveCanvas" class="wave-canvas" aria-hidden="true"></canvas>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">Conectamos innovación con el mercado paso a paso</h1>
+                    <p class="hero-subtitle">Navegamos juntos hacia el éxito de tu tecnología</p>
+                    <a href="#nuestra-ruta" class="hero-button">
+                        Descubre nuestra ruta
+                        <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuestra Ruta Section - REDISEÑADA -->
+        <section id="nuestra-ruta" class="nuestra-ruta" aria-labelledby="ruta-title">
+            <div class="container">
+                <h2 id="ruta-title" class="section-title">NUESTRA RUTA</h2>
+
+                <div class="route-timeline">
+                    <!-- Connecting line -->
+                    <div class="timeline-line" aria-hidden="true"></div>
+
+                    <div class="route-steps">
+                        <!-- Paso 1 -->
+                        <div class="route-step">
+                            <div class="step-content">
+                                <div class="step-icon">
+                                    <i class="fa-solid fa-compass" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="step-title">BRÚJULA TECNOLÓGICA</h3>
+                                <p class="step-description">Definimos el rumbo con base en el potencial de la tecnología y el mercado.</p>
+                                <a href="#brujula" class="step-link">
+                                    Ver detalles
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Paso 2 -->
+                        <div class="route-step">
+                            <div class="step-content">
+                                <div class="step-icon">
+                                    <i class="fa-solid fa-map" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="step-title">CARTOGRAFÍA COMERCIAL</h3>
+                                <p class="step-description">Trazamos el mapa de aliados, clientes e inversionistas con potencial real.</p>
+                                <a href="#cartografia" class="step-link">
+                                    Ver detalles
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Paso 3 -->
+                        <div class="route-step">
+                            <div class="step-content">
+                                <div class="step-icon">
+                                    <i class="fa-solid fa-ship" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="step-title">NEGOCIACIÓN A BORDO</h3>
+                                <p class="step-description">Activamos el relacionamiento y validamos el interés del mercado.</p>
+                                <a href="#negociacion" class="step-link">
+                                    Ver detalles
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Paso 4 -->
+                        <div class="route-step">
+                            <div class="step-content">
+                                <div class="step-icon">
+                                    <i class="fa-solid fa-anchor" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="step-title">ANCLAJE ESTRATÉGICO</h3>
+                                <p class="step-description">Concretamos acuerdos con respaldo técnico, comercial y jurídico.</p>
+                                <a href="#anclaje" class="step-link">
+                                    Ver detalles
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Paso 5 -->
+                        <div class="route-step">
+                            <div class="step-content">
+                                <div class="step-icon">
+                                    <i class="fa-solid fa-book" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="step-title">BITÁCORA DE NAVEGACIÓN</h3>
+                                <p class="step-description">Una vez en ruta, no soltamos el timón.</p>
+                                <a href="#bitacora" class="step-link">
+                                    Ver detalles
+                                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brújula Tecnológica Section -->
+        <section id="brujula" class="service-section bg-light" aria-labelledby="brujula-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-compass" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="brujula-title" class="section-title">BRÚJULA TECNOLÓGICA</h2>
+                    <p class="section-subtitle">Definimos el rumbo con base en el potencial de la tecnología y el mercado.</p>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-column">
+                        <h3 class="content-title">¿QUÉ INCLUYE?</h3>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Evaluación del desarrollo: TRL, BRL, CRL.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Acceso a información exclusiva mediante herramientas avanzadas de análisis.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Tablero interactivo de consulta permanente, donde se incluyen oportunidades de mercado, tendencias tecnológicas y actores clave del sector.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h3 class="content-title">¿POR QUÉ?</h3>
+                        <p>Todo viaje exitoso comienza con una dirección clara.</p>
+                        <p>En este primer momento, analizamos las capacidades del cliente, el nivel de madurez del desarrollo y las oportunidades reales del entorno. Este ejercicio permite establecer un rumbo informado y estratégico para la transferencia apoyados en bases de datos especializadas y metodologías de vigilancia tecnológica que usualmente están fuera del alcance de la mayoría de las organizaciones.</p>
+                        <p>Permite enfocar esfuerzos desde el inicio, evitando rutas inciertas. Acceso a un análisis especializado que ahorra tiempo, recursos y facilita la toma de decisiones informadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cartografía Comercial Section -->
+        <section id="cartografia" class="service-section" aria-labelledby="cartografia-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-map" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="cartografia-title" class="section-title">CARTOGRAFÍA COMERCIAL</h2>
+                    <p class="section-subtitle">Trazamos el mapa de aliados, clientes e inversionistas con potencial real.</p>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-column">
+                        <h3 class="content-title">¿QUÉ INCLUYE?</h3>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Análisis de necesidades tecnológicas y capacidad de adopción.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Segmentación de prospectos por compatibilidad y sector.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Priorización de actores con base en oportunidad y valor.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Evaluación de compatibilidad con la tecnología propuesta.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Diseño de estrategia de contacto y relacionamiento.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Construcción de base de datos con criterios definidos.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h3 class="content-title">¿POR QUÉ?</h3>
+                        <p>No basta con saber hacia dónde ir, hay que saber con quién.</p>
+                        <p>En esta etapa, identificamos y priorizamos actores clave para la transferencia: empresas, centros de I+D, aliados estratégicos e inversionistas. Nuestro enfoque no es solo listar, sino construir un mapa de conexiones útiles y viables.</p>
+                        <p>Evita exploraciones dispersas. Acceso a mapa comercial accionable, diseñado y validado en tiempo real para facilitar conexiones con sentido estratégico y avanzar con mayor foco en los actores correctos, evitando esfuerzos improductivos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Negociación a Bordo Section -->
+        <section id="negociacion" class="service-section bg-light" aria-labelledby="negociacion-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-ship" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="negociacion-title" class="section-title">NEGOCIACIÓN A BORDO</h2>
+                    <p class="section-subtitle">Activamos el relacionamiento y validamos el interés del mercado.</p>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-column">
+                        <h3 class="content-title">¿QUÉ INCLUYE?</h3>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Presentaciones de la tecnología con enfoque comercial.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Gestión de reuniones, espacios de contacto y seguimiento.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Documentación del relacionamiento (feedback, objeciones, oportunidades).</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Ajustes tácticos a la propuesta según validaciones tempranas.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Tablero de seguimiento de clientes en tiempo real.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h3 class="content-title">¿POR QUÉ?</h3>
+                        <p>Es momento de zarpar.</p>
+                        <p>Iniciamos la gestión comercial presentando la tecnología a los actores priorizados. Participamos en espacios de diálogo, escuchamos al mercado, documentamos reacciones y ajustamos la propuesta a la medida. Aquí el cliente no navega solo, cuenta con nuestro respaldo en cada interacción.</p>
+                        <p>Acceso a un proceso de validación real, sin asumir la carga operativa. Retroalimentación del mercado y conexiones estratégicas que permiten convertir conversaciones en oportunidades reales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Anclaje Estratégico Section -->
+        <section id="anclaje" class="service-section" aria-labelledby="anclaje-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-anchor" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="anclaje-title" class="section-title">ANCLAJE ESTRATÉGICO</h2>
+                    <p class="section-subtitle">Concretamos acuerdos con respaldo técnico, comercial y jurídico.</p>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-column">
+                        <h3 class="content-title">¿QUÉ INCLUYE?</h3>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Asesoría y acompañamiento en la negociación.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Propuestas de modelos de negocio viables.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Redacción y revisión de acuerdos.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Coordinación de agenda y soporte en reuniones.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Datos clave para la toma de decisiones como valor del mercado, clientes, etc.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h3 class="content-title">¿POR QUÉ?</h3>
+                        <p>Al acercarse a puerto, cada decisión cuenta.</p>
+                        <p>En esta etapa participamos activamente en la negociación del contrato: coordinamos reuniones, resolvemos dudas, proponemos modelos de negocio sostenibles y damos soporte legal. El cliente no está solo en la mesa de negociación: cuenta con un equipo que lo respalda técnica y jurídicamente.</p>
+                        <p>Ofrece seguridad y experiencia al momento de concretar. El acuerdo final refleja tanto los intereses del cliente como las condiciones del mercado, sin frenar el ritmo de avance y manteniendo el control sobre los términos del acuerdo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bitácora de Navegación Section -->
+        <section id="bitacora" class="service-section bg-light" aria-labelledby="bitacora-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-book" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="bitacora-title" class="section-title">BITÁCORA DE NAVEGACIÓN</h2>
+                    <p class="section-subtitle">Una vez en ruta, no soltamos el timón.</p>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-column">
+                        <h3 class="content-title">¿QUÉ INCLUYE?</h3>
+                        <ul class="check-list">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Actualización con registro periódico del avance y cumplimiento del acuerdo.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Alertas y recordatorios de las fechas de seguimiento.</p>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">✓</span>
+                                <p>Recomendaciones para futuras rutas de navegación.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h3 class="content-title">¿POR QUÉ?</h3>
+                        <p>La conexión con el mercado no termina con la firma.</p>
+                        <p>En esta última etapa, llevamos el registro del avance, analizamos el cumplimiento de lo pactado y proponemos ajustes si las condiciones del mercado cambian. Este seguimiento permite mantener la ruta activa, detectar nuevas oportunidades o necesidades de ajuste.</p>
+                        <p>Proceso acompañado, documentado y adaptable. Esta etapa asegura que la transferencia se mantenga vigente, evolucione y genere valor sostenido en el tiempo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summary Section -->
+        <section class="summary-section" aria-labelledby="summary-title">
+            <div class="container">
+                <h2 id="summary-title" class="section-title text-white">¿QUÉ HACEMOS?</h2>
+
+                <div class="summary-cards">
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-compass" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="card-title">BRÚJULA TECNOLÓGICA</h3>
+                        <p class="card-description">Evaluamos capacidades, madurez tecnológica y entorno para definir una hoja de ruta clara. El cliente recibe foto, dirección y ahorro de tiempo desde el inicio.</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-map" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="card-title">CARTOGRAFÍA COMERCIAL</h3>
+                        <p class="card-description">Segmentamos y priorizamos prospectos con lógica estratégica. El cliente obtiene un mapa comercial útil para avanzar sin perder esfuerzos.</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-ship" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="card-title">NEGOCIACIÓN A BORDO</h3>
+                        <p class="card-description">Acercamos al cliente ante actores clave, gestionamos reuniones y recogemos retroalimentación. El cliente obtiene validación real sin asumir la carga operativa.</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-anchor" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="card-title">ANCLAJE ESTRATÉGICO</h3>
+                        <p class="card-description">Acompañamos la negociación del contrato y estructuramos un modelo de negocio viable. El cliente cierra con respaldo y confianza.</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-book" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="card-title">BITÁCORA DE NAVEGACIÓN</h3>
+                        <p class="card-description">Realizamos seguimiento del acuerdo, indicadores y mejoras. El cliente asegura continuidad y evolución en la transferencia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact-section" aria-labelledby="contacto-title">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <h2 id="contacto-title" class="section-title">CONTACTO</h2>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" placeholder="Tu nombre" required aria-required="true">
+                                <div class="error-message" id="name-error" aria-live="polite"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" placeholder="tu@email.com" required aria-required="true">
+                                <div class="error-message" id="email-error" aria-live="polite"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" placeholder="Nombre de tu empresa">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" rows="5" placeholder="¿Cómo podemos ayudarte?" required aria-required="true"></textarea>
+                            <div class="error-message" id="message-error" aria-live="polite"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="submit-button">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">Navegación Tecnológica</h3>
+                    <p class="footer-subtitle">Conectamos innovación con el mercado paso a paso</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#nuestra-ruta" class="footer-link">Nuestra Ruta</a>
+                    <a href="#brujula" class="footer-link">Brújula Tecnológica</a>
+                    <a href="#cartografia" class="footer-link">Cartografía Comercial</a>
+                    <a href="#contacto" class="footer-link">Contacto</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Navegación Tecnológica. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Volver arriba">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="./PompomPurin/js/main.js" defer></script>
+    <script src="./PompomPurin/js/animations.js" defer></script>
+</body>
+</html>
